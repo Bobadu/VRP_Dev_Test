@@ -1,0 +1,21 @@
+{
+  "name": "dev_exam",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Bo ba du",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "typescript": "^5.8.2",
+    "@altv/types-client": "^16.2.9",
+    "@altv/types-natives": "^16.2.1",
+    "@altv/types-server": "^16.2.6",
+    "@altv/types-shared": "^16.2.4",
+    "@altv/types-webview": "^16.2.1"
+  }
+}
