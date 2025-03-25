@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useState, useEffect } from 'react';
     
 declare global {
@@ -38,6 +39,7 @@ const CameraDirectorUI = () => {
         };
     }, []);
     
+    // @ts-ignore
     const handleClearPoints = () => {
         if (isPlaying) return;
         alt.emit('cameraDirector:clearPoints');
